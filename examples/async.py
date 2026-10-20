@@ -13,7 +13,7 @@ async def get_data(delay = 1):
 async def main():
     result = await get_data()
     print(result)
-    await asyncio.sleep(1)
+    await asyncio.sleep(1)  
 
 asyncio.run(main())
 
